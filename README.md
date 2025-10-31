@@ -1,9 +1,10 @@
 # Flutter Product Catalog App
+
 Flutter mobile app yang menampilkan product dari [FakeStore API](https://fakestoreapi.com/products).  
 Menggunakan — BLoC, GetIt, Dio, Dartz, dan Cached Network Images.
 
-
 ## Features
+
 • Fetch products dari API (`https://fakestoreapi.com/products`)<br/>
 • Menampilkan list produk dengan cached image<br/>
 • Screen Detail Produk dengan data rating and description<br/>
@@ -14,8 +15,8 @@ Menggunakan — BLoC, GetIt, Dio, Dartz, dan Cached Network Images.
 • Clean architecture dengan BLoC state management<br/>
 • Flutter 3.35.7 / Dart 3.9.2
 
-
 ## Tech Stack
+
 • Framework | Flutter 3.35.7<br/>
 • Language | Dart 3.9.2 <br/>
 • State Management | [flutter_bloc](https://pub.dev/packages/flutter_bloc) <br/>
@@ -25,8 +26,8 @@ Menggunakan — BLoC, GetIt, Dio, Dartz, dan Cached Network Images.
 • Image Caching | [cached_network_image](https://pub.dev/packages/cached_network_image)<br/>
 • Formatting | [intl](https://pub.dev/packages/intl)<br/>
 
-
 ## Getting Started
+
 ```bash
 git clone https://github.com/stenlyrachmad/flutter_product_catalog.git
 cd flutter_product_catalog
@@ -34,12 +35,12 @@ flutter pub get
 flutter run
 ```
 
-
 ## API Source
+
 https://fakestoreapi.com/products
 
-
 ## Overview
+
 Aplikasi ini mengikuti kaidah sederhana dari clean dan layer arsitektur<br/>
 • Data Layer : Menangani koneksi API dengan Dio & Pola Repository<br/>
 • Domain Layer : Mengembalikan return Function dengan Either<Failure, T> (kiri return type error, kanan return type success)<br/>
@@ -47,12 +48,10 @@ Aplikasi ini mengikuti kaidah sederhana dari clean dan layer arsitektur<br/>
 
 Semua Dependency tersentralisasi via GetIt di injector.dart
 
-
 ## Classes
+
 • ProductRepository : Fetch product data dari API melalui Dio<br/>
 • ProductsBloc : Manage product list, search, dan refresh events<br/>
 • Product / Rating : Model class utk deserialize API response<br/>
 • HomeScreen : Menampilkan product list dan search box<br/>
 • DetailScreen : Menampilkan seluruh product info<br/>
-
-
