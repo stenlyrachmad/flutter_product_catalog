@@ -40,7 +40,7 @@ https://fakestoreapi.com/products
 
 
 ## Overview
-Aplikasi ini mengikuti kaidah sederhana dari clean dan layer arsitektur
+Aplikasi ini mengikuti kaidah sederhana dari clean dan layer arsitektur<br/>
 • Data Layer : Menangani koneksi API dengan Dio & Pola Repository<br/>
 • Domain Layer : Mengembalikan return Function dengan Either<Failure, T> (kiri return type error, kanan return type success)<br/>
 • Presentation Layer : Menggunakan BLoC untuk reaktif update di Ui<br/>
