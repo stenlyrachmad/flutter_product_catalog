@@ -4,14 +4,14 @@ Menggunakan — BLoC, GetIt, Dio, Dartz, dan Cached Network Images.
 
 
 ## Features
-• Fetch products dari API (`https://fakestoreapi.com/products`).
-• Menampilkan list produk dengan cached image.
-• Screen Detail Produk dengan data rating and description.
-• Search products dengan title atau category (local filtering).
-• Refresh dan error handling states.
-• Dependency Injection dengan GetIt.
-• Function error handling menggunakan Dartz Either.
-• Clean architecture dengan BLoC state management.
+• Fetch products dari API (`https://fakestoreapi.com/products`)<br/>
+• Menampilkan list produk dengan cached image<br/>
+• Screen Detail Produk dengan data rating and description<br/>
+• Search products dengan title atau category (local filtering)<br/>
+• Refresh dan error handling states<br/>
+• Dependency Injection dengan GetIt<br/>
+• Function error handling menggunakan Dartz Either<br/>
+• Clean architecture dengan BLoC state management<br/>
 • Flutter 3.35.7 / Dart 3.9.2
 
 
@@ -41,18 +41,18 @@ https://fakestoreapi.com/products
 
 ## Architecture Overview
 Aplikasi ini mengikuti kaidah sederhana dari clean dan layer arsitektur
-• Data Layer : Menangani koneksi API dengan Dio & Pola Repository 
-• Domain Layer : Mengembalikan return Function dengan Either<Failure, T> (kiri return type error, kanan return type success)
-• Presentation Layer : Menggunakan BLoC untuk reaktif update di Ui
+• Data Layer : Menangani koneksi API dengan Dio & Pola Repository <br/>
+• Domain Layer : Mengembalikan return Function dengan Either<Failure, T> (kiri return type error, kanan return type success)<br/>
+• Presentation Layer : Menggunakan BLoC untuk reaktif update di Ui<br/>
 
 Semua Dependency tersentralisasi via GetIt di injector.dart
 
 
 ## Key Classes
-• ProductRepository : Fetch product data dari API melalui Dio
-• ProductsBloc : Manage product list, search, dan refresh events
-• Product / Rating : Model class utk deserialize API response
-• HomeScreen : Menampilkan product list dan search box
-• DetailScreen : Menampilkan seluruh product info
+• ProductRepository : Fetch product data dari API melalui Dio<br/>
+• ProductsBloc : Manage product list, search, dan refresh events<br/>
+• Product / Rating : Model class utk deserialize API response<br/>
+• HomeScreen : Menampilkan product list dan search box<br/>
+• DetailScreen : Menampilkan seluruh product info<br/>
 
 
