@@ -4,26 +4,26 @@ Menggunakan — BLoC, GetIt, Dio, Dartz, dan Cached Network Images.
 
 
 ## Features
-• Fetch products dari API (`https://fakestoreapi.com/products`)
-• Menampilkan list produk dengan cached image
-• Screen Detail Produk dengan data rating and description
-• Search products dengan title atau category (local filtering)
-• Refresh dan error handling states
-• Dependency Injection dengan GetIt
-• Function error handling menggunakan Dartz Either
-• Clean architecture dengan BLoC state management
+• Fetch products dari API (`https://fakestoreapi.com/products`).
+• Menampilkan list produk dengan cached image.
+• Screen Detail Produk dengan data rating and description.
+• Search products dengan title atau category (local filtering).
+• Refresh dan error handling states.
+• Dependency Injection dengan GetIt.
+• Function error handling menggunakan Dartz Either.
+• Clean architecture dengan BLoC state management.
 • Flutter 3.35.7 / Dart 3.9.2
 
 
 ## Tech Stack
-• Framework | Flutter 3.35.7 
-• Language | Dart 3.9.2 
-• State Management | [flutter_bloc](https://pub.dev/packages/flutter_bloc) 
-• Dependency Injection | [get_it](https://pub.dev/packages/get_it) 
-• HTTP Client | [dio](https://pub.dev/packages/dio) 
-• Functional Programming | [dartz](https://pub.dev/packages/dartz) 
-• Image Caching | [cached_network_image](https://pub.dev/packages/cached_network_image)
-• Formatting | [intl](https://pub.dev/packages/intl)
+• Framework | Flutter 3.35.7<br/>
+• Language | Dart 3.9.2 <br/>
+• State Management | [flutter_bloc](https://pub.dev/packages/flutter_bloc) <br/>
+• Dependency Injection | [get_it](https://pub.dev/packages/get_it) <br/>
+• HTTP Client | [dio](https://pub.dev/packages/dio) <br/>
+• Functional Programming | [dartz](https://pub.dev/packages/dartz) <br/>
+• Image Caching | [cached_network_image](https://pub.dev/packages/cached_network_image)<br/>
+• Formatting | [intl](https://pub.dev/packages/intl)<br/>
 
 
 ## Getting Started
