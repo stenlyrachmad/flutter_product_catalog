@@ -28,7 +28,7 @@ Menggunakan — BLoC, GetIt, Dio, Dartz, dan Cached Network Images.
 
 ## Getting Started
 ```bash
-git clone https://github.com/<your-username>/flutter_product_catalog.git
+git clone https://github.com/stenlyrachmad/flutter_product_catalog.git
 cd flutter_product_catalog
 flutter pub get
 flutter run
