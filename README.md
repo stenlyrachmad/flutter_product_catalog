@@ -39,16 +39,16 @@ flutter run
 https://fakestoreapi.com/products
 
 
-## Architecture Overview
+## Overview
 Aplikasi ini mengikuti kaidah sederhana dari clean dan layer arsitektur
-• Data Layer : Menangani koneksi API dengan Dio & Pola Repository <br/>
+• Data Layer : Menangani koneksi API dengan Dio & Pola Repository<br/>
 • Domain Layer : Mengembalikan return Function dengan Either<Failure, T> (kiri return type error, kanan return type success)<br/>
 • Presentation Layer : Menggunakan BLoC untuk reaktif update di Ui<br/>
 
 Semua Dependency tersentralisasi via GetIt di injector.dart
 
 
-## Key Classes
+## Classes
 • ProductRepository : Fetch product data dari API melalui Dio<br/>
 • ProductsBloc : Manage product list, search, dan refresh events<br/>
 • Product / Rating : Model class utk deserialize API response<br/>
