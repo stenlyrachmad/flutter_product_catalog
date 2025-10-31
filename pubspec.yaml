@@ -1,0 +1,39 @@
+name: flutter_product_catalog
+description: A simple product catalog using FakeStore API, Bloc, GetIt, Dio, Dartz, cached images.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_bloc: ^8.1.2
+  equatable: ^2.0.5
+
+  # Dependency injection
+  get_it: ^7.6.0
+
+  # HTTP client
+  dio: ^5.3.1
+
+  # Functional Error Handling
+  dartz: ^0.10.1
+
+  # Image caching
+  cached_network_image: ^3.2.5
+
+  # Utilities
+  intl: ^0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
